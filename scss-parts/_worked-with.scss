@@ -1,0 +1,41 @@
+#worked-with {
+    padding: 50px 0 20px;
+    @media screen and (min-width: 768px) {
+        padding: 250px 0 70px;
+    }
+    .container {
+        @media screen and (min-width: 768px) {
+            display: flex;
+        }
+    }
+    .text-area {
+        text-align: center;
+        @media screen and (min-width: 768px) {
+            text-align: left;
+            width: 35%;
+            p {
+                width: 90%;
+            }
+        }
+    }
+    .logos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        @media screen and (min-width: 768px) {
+            width: 70%;
+        }
+        div {
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+            @media screen and (min-width: 768px) {
+                width: 33%;
+            }
+        }
+        img {
+            object-fit: contain;
+            padding: 30px;
+        }
+    }
+}
